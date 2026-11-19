@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 375" role="img" aria-labelledby="title desc">
+  <title id="title">Соединения радиотелескопа</title>
+  <desc id="desc">Зонд, малошумящий усилитель с внешним питанием, опциональный фильтр, приёмник и USB-порт Linux-сервера.</desc>
+  <style>
+    text { font-family: sans-serif; fill:#16252e }
+    .title {font-size:25px;font-weight:700}
+    .name {font-size:18px;font-weight:600}
+    .note {font-size:14px}
+    .box {fill:#ecf4f6;stroke:#286475;stroke-width:2}
+    .line {fill:none;stroke:#286475;stroke-width:3;marker-end:url(#arrow)}
+  </style>
+  <defs><marker id="arrow" viewBox="0 0 10 10" markerWidth="7" markerHeight="7" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#286475"/></marker></defs>
+  <rect width="1120" height="375" fill="#fff"/>
+  <text x="30" y="42" class="title">От зонда до записи IQ</text>
+  <text x="30" y="72" class="note">Все ВЧ-соединения 50 Ом. Направление стрелки соответствует движению сигнала.</text>
+  <rect x="30" y="152" width="142" height="72" rx="5" class="box"/>
+  <text x="44" y="180" class="name">Рупор H1</text><text x="44" y="205" class="note">Зонд → RG316 F</text>
+  <path d="M172 188h83" class="line"/>
+  <rect x="260" y="152" width="171" height="72" rx="5" class="box"/>
+  <text x="274" y="180" class="name">МШУ SPF5189Z</text><text x="274" y="205" class="note">J1 вход → J2 выход</text>
+  <text x="185" y="171" class="note">F ↔ M</text>
+  <path d="M431 188h275" class="line"/>
+  <path d="M436 196v72h34m180 0h46v-68" class="line"/>
+  <rect x="471" y="239" width="178" height="65" rx="5" class="box" stroke-dasharray="5 3"/>
+  <text x="484" y="265" class="name">F1 · 1420 МГц</text><text x="484" y="290" class="note">SMA-F/F → J4 M/M</text>
+  <text x="456" y="173" class="note">J2 M → RX1 F напрямую</text>
+  <text x="458" y="330" class="note">Расширенный вариант через F1</text>
+  <rect x="710" y="152" width="173" height="72" rx="5" class="box"/>
+  <text x="723" y="180" class="name">RTL-SDR Blog V3</text><text x="723" y="205" class="note">SMA-F · bias tee выкл.</text>
+  <path d="M883 188h70" class="line"/><text x="893" y="172" class="note">USB 2</text>
+  <rect x="956" y="152" width="140" height="72" rx="5" class="box"/>
+  <text x="967" y="180" class="name">Linux-сервер</text><text x="967" y="205" class="note">rtl_sdr → IQ U8</text>
+  <path d="M346 254v-26" class="line"/>
+  <text x="225" y="277" class="name">PS1 · 5 В стаб.</text>
+  <text x="225" y="301" class="note">J3.1 +5 В, J3.2 GND</text>
+</svg>

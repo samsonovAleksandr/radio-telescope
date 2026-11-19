@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="635" viewBox="0 0 1000 635">
+<style>text{font:16px sans-serif;fill:#173343} .title{font:bold 25px sans-serif} .section{font:bold 17px sans-serif} .metal{fill:#f0f5f5;stroke:#1c4155;stroke-width:2} .dim{fill:none;stroke:#548697;stroke-width:1.3} .probe{stroke:#aa571e;stroke-width:4} .axis{stroke:#78919c;stroke-dasharray:6 4} </style>
+<text x="25" y="35" class="title">Рупор 21 см · размеры внутри, мм</text>
+<text x="25" y="70" class="section">Вид сверху · плоскость H</text>
+<path class="metal" d="M70 145H214L630 91V251L214 197H70Z"/>
+<path class="axis" d="M50 171H650"/><path class="dim" d="M214 145V197M70 198V282M214 198V282M630 251V282M70 272H630"/>
+<text x="122" y="268">180</text><text x="408" y="268">520</text>
+<text x="147" y="165">160</text><text x="641" y="178">500</text>
+<circle cx="126" cy="171" r="4" fill="#aa571e"/><path class="dim" d="M126 166V106H180"/><text x="184" y="110">Ось ввода, x = 80 от боковой стенки</text>
+<text x="25" y="335" class="section">Продольное сечение · плоскость E</text>
+<path class="metal" d="M70 400H214L630 349V477L214 426H70Z"/>
+<path class="dim" d="M214 400V426"/><path class="probe" d="M126 400V416"/><path class="dim" d="M126 398V362H181"/>
+<text x="185" y="366">Медный зонд Ø2, длина 50 от внутренней поверхности</text>
+<path class="dim" d="M70 431V465M126 431V465M70 456H126"/><text x="76" y="481">70,2</text><text x="159" y="420">80</text><text x="641" y="418">400</text>
+<text x="730" y="70" class="section">Вид со стороны раскрыва</text>
+<rect x="748" y="100" width="210" height="168" class="metal"/><rect x="819" y="167" width="67" height="34" class="metal"/><path class="probe" d="M852 167V188"/>
+<text x="821" y="292">500 × 400</text>
+<text x="25" y="534">Плоскость задней металлической стенки — начало осевой координаты z.</text>
+<text x="25" y="561">Горловина при z = 180. Раскрыв при z = 700. Ось зонда перпендикулярна широкой стенке.</text>
+<text x="25" y="601">Сборочный эскиз схематичен. Шаблоны резки 1:1 приведены отдельными листами SVG.</text>
+</svg>

@@ -1,0 +1,9 @@
+assembly.svg: XML OK
+back.svg: XML OK
+guide-narrow.svg: XML OK
+guide-wide.svg: XML OK
+guide-probe.svg: XML OK
+flare-narrow.svg: XML OK
+flare-wide.svg: XML OK
+Common seam: 570.00 mm
+STL: 524 facets, two facets on every edge, envelope (38.0, 22.0, 8.0) mm
