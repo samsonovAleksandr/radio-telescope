@@ -1,0 +1,6 @@
+services:
+  telescope:
+    devices:
+      - "${SDR_DEVICE:?Set SDR_DEVICE}:${SDR_DEVICE}:rw"
+    group_add:
+      - "${SDR_GID:?Set SDR_GID}"

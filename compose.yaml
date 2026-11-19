@@ -1,0 +1,19 @@
+services:
+  telescope:
+    build: .
+    init: true
+    ports:
+      - "${LISTEN_IP:-127.0.0.1}:${HTTP_PORT:-8080}:8080"
+    volumes:
+      - observations:/data
+    environment:
+      MAX_UPLOAD_MIB: ${MAX_UPLOAD_MIB:-2048}
+      MAX_CAPTURE_SECONDS: ${MAX_CAPTURE_SECONDS:-300}
+      RESERVE_MIB: ${RESERVE_MIB:-128}
+      SIMULATE_SDR: ${SIMULATE_SDR:-0}
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    read_only: true
+    restart: unless-stopped
+volumes:
+  observations:
