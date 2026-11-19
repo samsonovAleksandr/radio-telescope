@@ -1,0 +1,3 @@
+KiCad/EAGLE: 6 nets, 20 pad assignments identical.
+Gerber: six complete metric layers, 30 x 25 mm rectangular profile; job stack 0.8 mm.
+Excellon: 47 distinct 0.35 mm plated vias; every coordinate matches EAGLE.

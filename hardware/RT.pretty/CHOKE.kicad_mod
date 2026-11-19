@@ -1,0 +1,75 @@
+(footprint "CHOKE"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.8 -1.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c466510c-e842-4033-a843-0828822888c6")
+		(effects
+			(font
+				(size 0.903 0.903)
+				(thickness 0.147)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "CHOKE"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2f898ff-2cd3-49fe-b93a-b8898cb551ce")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d564e0de-2aa2-4304-b344-802ffc44e187")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3831a99e-7140-4dbd-b168-5a4ad7121ca3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" smd rect
+		(at 0 0.8)
+		(size 0.95 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "b27dc3df-15bb-4c32-9266-c68f198bc3f9")
+	)
+	(pad "2" smd rect
+		(at 0 -0.8)
+		(size 0.95 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "d25a0b3d-b46f-426a-a838-8829598db999")
+	)
+	(embedded_fonts no)
+)

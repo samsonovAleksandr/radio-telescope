@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\РадиоТелескоп\radio-telescope\hardware\LNA.kicad_sch</source>
+    <date>2026-11-19T09:47:15</date>
+    <tool>Eeschema 10.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>LNA.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10p</value>
+      <footprint>RT:CAP</footprint>
+      <fields>
+        <field name="Footprint">RT:CAP</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RT" part="CAP" description=""/>
+      <property name="Sheetname" value="LNA"/>
+      <property name="Sheetfile" value="LNA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19f6d901-a72a-5854-a33a-d29b402a9922</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>100p</value>
+      <footprint>RT:CAP</footprint>
+      <fields>
+        <field name="Footprint">RT:CAP</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RT" part="CAP" description=""/>
+      <property name="Sheetname" value="LNA"/>
+      <property name="Sheetfile" value="LNA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df4842bf-9ce4-52b8-a974-e9e57c7c1f73</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>100p</value>
+      <footprint>RT:CAP</footprint>
+      <fields>
+        <field name="Footprint">RT:CAP</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RT" part="CAP" description=""/>
+      <property name="Sheetname" value="LNA"/>
+      <property name="Sheetfile" value="LNA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1061c04d-06a2-55b8-88f5-2f379bd90843</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>RT:CAP</footprint>
+      <fields>
+        <field name="Footprint">RT:CAP</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RT" part="CAP" description=""/>
+      <property name="Sheetname" value="LNA"/>
+      <property name="Sheetfile" value="LNA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0bec798-5cdb-54c8-a339-18b44f8f94f6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>RF IN</value>
+      <footprint>RT:COAX</footprint>
+      <fields>
+        <field name="Footprint">RT:COAX</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RT" part="COAX" description=""/>
+      <property name="Sheetname" value="LNA"/>
+      <property name="Sheetfile" value="LNA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2cf0438b-9359-5812-86a6-a69daae5e8e3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>RF OUT</value>
+      <footprint>RT:COAX</footprint>
+      <fields>
+        <field name="Footprint">RT:COAX</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RT" part="COAX" description=""/>
+      <property name="Sheetname" value="LNA"/>
+      <property name="Sheetfile" value="LNA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20c22ebf-c03a-5cb8-b3dc-c1594fadc4f7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>5V</value>
+      <footprint>RT:POWER</footprint>
+      <fields>
+        <field name="Footprint">RT:POWER</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RT" part="POWER" description=""/>
+      <property name="Sheetname" value="LNA"/>
+      <property name="Sheetfile" value="LNA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55c624c5-4bed-5a68-a95a-2e21d6190b37</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L1">
+      <value>47n</value>
+      <footprint>RT:CHOKE</footprint>
+      <fields>
+        <field name="Footprint">RT:CHOKE</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RT" part="CHOKE" description=""/>
+      <property name="Sheetname" value="LNA"/>
+      <property name="Sheetfile" value="LNA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59aacc7f-0edf-51e0-9bdb-c07f9684f0d0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>SPF5189Z</value>
+      <footprint>RT:MMIC</footprint>
+      <fields>
+        <field name="Footprint">RT:MMIC</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RT" part="MMIC" description=""/>
+      <property name="Sheetname" value="LNA"/>
+      <property name="Sheetfile" value="LNA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84c6f479-a2b5-5c25-acc3-b1569f020db6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="RT" part="CAP">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RT" part="CHOKE">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">CHOKE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RT" part="COAX">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">COAX</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="RF" type="passive"/>
+        <pin num="2" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RT" part="MMIC">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MMIC</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="RF_IN" type="input"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="RF_OUT/VD" type="output"/>
+        <pin num="4" name="PADDLE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RT" part="POWER">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">POWER</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+5V" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="RT">
+      <uri>${KIPRJMOD}/RT.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/AMP_IN" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="RF_IN_1" pintype="input"/>
+    </net>
+    <net code="2" name="/BIAS_RF" class="Default">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="L1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="RF_OUT/VD_3" pintype="output"/>
+    </net>
+    <net code="3" name="/GND" class="Default">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="SHIELD_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="SHIELD_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="PADDLE_4" pintype="passive"/>
+    </net>
+    <net code="4" name="/IN" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="RF_1" pintype="passive"/>
+    </net>
+    <net code="5" name="/OUT" class="Default">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="RF_1" pintype="passive"/>
+    </net>
+    <net code="6" name="/VCC" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="+5V_1" pintype="passive"/>
+      <node ref="L1" pin="2" pintype="passive"/>
+    </net>
+  </nets>
+</export>

@@ -39,29 +39,29 @@
             <package name="CAP">
               <smd name="1" x="-0.8" y="0" dx="0.9" dy="0.95" layer="1" />
               <smd name="2" x="0.8" y="0" dx="0.9" dy="0.95" layer="1" />
-              <text x="-1" y="2.4" size="0.75" layer="25">&gt;NAME</text>
+              <text x="1.8" y="1.3" size="1.05" layer="25" ratio="14">&gt;NAME</text>
             </package>
             <package name="CHOKE">
               <smd name="1" x="0" y="-0.8" dx="0.95" dy="0.9" layer="1" />
               <smd name="2" x="0" y="0.8" dx="0.95" dy="0.9" layer="1" />
-              <text x="-1" y="2.4" size="0.75" layer="25">&gt;NAME</text>
+              <text x="-1.8" y="1.6" size="1.05" layer="25" ratio="14">&gt;NAME</text>
             </package>
             <package name="MMIC">
               <smd name="1" x="-1.5" y="-1.6" dx="0.85" dy="1.55" layer="1" />
               <smd name="2" x="0" y="-1.6" dx="0.95" dy="1.55" layer="1" />
               <smd name="3" x="1.5" y="-1.6" dx="0.85" dy="1.55" layer="1" />
               <smd name="4" x="0" y="0.65" dx="1.9" dy="2.35" layer="1" />
-              <text x="-1" y="2.4" size="0.75" layer="25">&gt;NAME</text>
+              <text x="-3.8" y="3.4" size="1.05" layer="25" ratio="14">&gt;NAME</text>
             </package>
             <package name="COAX">
               <smd name="1" x="0" y="0" dx="2" dy="2" layer="1" />
               <smd name="2" x="0" y="-3" dx="3" dy="2" layer="1" />
-              <text x="-1" y="2.4" size="0.75" layer="25">&gt;NAME</text>
+              <text x="-1" y="2" size="1.05" layer="25" ratio="14">&gt;NAME</text>
             </package>
             <package name="POWER">
               <smd name="1" x="0" y="0" dx="2" dy="2" layer="1" />
               <smd name="2" x="0" y="3" dx="2" dy="2" layer="1" />
-              <text x="-1" y="2.4" size="0.75" layer="25">&gt;NAME</text>
+              <text x="-4.5" y="1" size="1.05" layer="25" ratio="14">&gt;NAME</text>
             </package>
           </packages>
         </library>
@@ -72,7 +72,7 @@
         <class number="0" name="default" width="0" drill="0" />
       </classes>
       <designrules name="FR4-0.8">
-        <param name="mtIsolate" value="0.73mm" />
+        <param name="mtIsolate" value="0.71mm" />
         <param name="layerSetup" value="(1*16)" />
       </designrules>
       <elements>
@@ -95,14 +95,14 @@
         <signal name="AMP_IN">
           <contactref element="C1" pad="2" />
           <contactref element="U1" pad="1" />
-          <wire x1="9.8" y1="10" x2="12.5" y2="10.0" layer="1" width="0.45" />
+          <wire x1="9.8" y1="10" x2="12.5" y2="10.0" layer="1" width="1.4" />
         </signal>
         <signal name="BIAS_RF">
           <contactref element="U1" pad="3" />
           <contactref element="L1" pad="1" />
           <contactref element="C2" pad="1" />
-          <wire x1="15.5" y1="10.0" x2="18" y2="10" layer="1" width="0.45" />
-          <wire x1="18" y1="10" x2="20.2" y2="10" layer="1" width="0.45" />
+          <wire x1="15.5" y1="10.0" x2="18" y2="10" layer="1" width="1.4" />
+          <wire x1="18" y1="10" x2="20.2" y2="10" layer="1" width="1.4" />
           <wire x1="18" y1="10" x2="18" y2="13.2" layer="1" width="0.45" />
         </signal>
         <signal name="OUT">
@@ -143,8 +143,11 @@
           </polygon>
           <via x="14" y="8.7" extent="1-16" drill="0.35" diameter="0.75" />
           <via x="14" y="13.7" extent="1-16" drill="0.35" diameter="0.75" />
-          <via x="13.4" y="13.7" extent="1-16" drill="0.35" diameter="0.75" />
-          <via x="14.6" y="13.7" extent="1-16" drill="0.35" diameter="0.75" />
+          <via x="13.1" y="13.7" extent="1-16" drill="0.35" diameter="0.75" />
+          <via x="14.9" y="13.7" extent="1-16" drill="0.35" diameter="0.75" />
+          <via x="13.1" y="14.6" extent="1-16" drill="0.35" diameter="0.75" />
+          <via x="14" y="14.6" extent="1-16" drill="0.35" diameter="0.75" />
+          <via x="14.9" y="14.6" extent="1-16" drill="0.35" diameter="0.75" />
           <via x="22.2" y="17" extent="1-16" drill="0.35" diameter="0.75" />
           <via x="22.2" y="20" extent="1-16" drill="0.35" diameter="0.75" />
           <via x="17" y="23" extent="1-16" drill="0.35" diameter="0.75" />

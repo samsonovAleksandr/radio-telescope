@@ -33,29 +33,29 @@
             <package name="CAP">
               <smd name="1" x="-0.8" y="0" dx="0.9" dy="0.95" layer="1" />
               <smd name="2" x="0.8" y="0" dx="0.9" dy="0.95" layer="1" />
-              <text x="-1" y="2.4" size="0.75" layer="25">&gt;NAME</text>
+              <text x="1.8" y="1.3" size="1.05" layer="25" ratio="14">&gt;NAME</text>
             </package>
             <package name="CHOKE">
               <smd name="1" x="0" y="-0.8" dx="0.95" dy="0.9" layer="1" />
               <smd name="2" x="0" y="0.8" dx="0.95" dy="0.9" layer="1" />
-              <text x="-1" y="2.4" size="0.75" layer="25">&gt;NAME</text>
+              <text x="-1.8" y="1.6" size="1.05" layer="25" ratio="14">&gt;NAME</text>
             </package>
             <package name="MMIC">
               <smd name="1" x="-1.5" y="-1.6" dx="0.85" dy="1.55" layer="1" />
               <smd name="2" x="0" y="-1.6" dx="0.95" dy="1.55" layer="1" />
               <smd name="3" x="1.5" y="-1.6" dx="0.85" dy="1.55" layer="1" />
               <smd name="4" x="0" y="0.65" dx="1.9" dy="2.35" layer="1" />
-              <text x="-1" y="2.4" size="0.75" layer="25">&gt;NAME</text>
+              <text x="-3.8" y="3.4" size="1.05" layer="25" ratio="14">&gt;NAME</text>
             </package>
             <package name="COAX">
               <smd name="1" x="0" y="0" dx="2" dy="2" layer="1" />
               <smd name="2" x="0" y="-3" dx="3" dy="2" layer="1" />
-              <text x="-1" y="2.4" size="0.75" layer="25">&gt;NAME</text>
+              <text x="-1" y="2" size="1.05" layer="25" ratio="14">&gt;NAME</text>
             </package>
             <package name="POWER">
               <smd name="1" x="0" y="0" dx="2" dy="2" layer="1" />
               <smd name="2" x="0" y="3" dx="2" dy="2" layer="1" />
-              <text x="-1" y="2.4" size="0.75" layer="25">&gt;NAME</text>
+              <text x="-4.5" y="1" size="1.05" layer="25" ratio="14">&gt;NAME</text>
             </package>
           </packages>
           <symbols>
@@ -64,10 +64,10 @@
               <wire x1="-0.6" y1="-1.8" x2="-0.6" y2="1.8" layer="94" width="0.254" />
               <wire x1="0.6" y1="-1.8" x2="0.6" y2="1.8" layer="94" width="0.254" />
               <wire x1="0.6" y1="0" x2="5.08" y2="0" layer="94" width="0.254" />
-              <text x="-3" y="6" size="1.5" layer="95">&gt;NAME</text>
-              <text x="-3" y="4.25" size="1.25" layer="96">&gt;VALUE</text>
-              <pin name="1" x="-5.08" y="0" length="point" visible="off" direction="pas" />
-              <pin name="2" x="5.08" y="0" length="point" visible="off" direction="pas" />
+              <text x="-3" y="6" size="1.5" layer="95" ratio="14">&gt;NAME</text>
+              <text x="-3" y="4.25" size="1.25" layer="96" ratio="14">&gt;VALUE</text>
+              <pin name="1" x="-5.08" y="0" length="point" visible="pad" direction="pas" />
+              <pin name="2" x="5.08" y="0" length="point" visible="pad" direction="pas" />
             </symbol>
             <symbol name="CHOKE">
               <wire x1="0" y1="-5.08" x2="0" y2="-3" layer="94" width="0.254" />
@@ -88,10 +88,10 @@
               <wire x1="-0.95" y1="2.25" x2="-0.671751442127221" y2="2.625" layer="94" width="0.254" />
               <wire x1="-0.671751442127221" y1="2.625" x2="-4.653657836759942e-16" y2="3.0" layer="94" width="0.254" />
               <wire x1="-4.653657836759942e-16" y1="3.0" x2="0" y2="5.08" layer="94" width="0.254" />
-              <text x="-3" y="6" size="1.5" layer="95">&gt;NAME</text>
-              <text x="-3" y="4.25" size="1.25" layer="96">&gt;VALUE</text>
-              <pin name="1" x="0" y="-5.08" length="point" visible="off" direction="pas" />
-              <pin name="2" x="0" y="5.08" length="point" visible="off" direction="pas" />
+              <text x="-3" y="6" size="1.5" layer="95" ratio="14">&gt;NAME</text>
+              <text x="-3" y="4.25" size="1.25" layer="96" ratio="14">&gt;VALUE</text>
+              <pin name="1" x="0" y="-5.08" length="point" visible="pad" direction="pas" />
+              <pin name="2" x="0" y="5.08" length="point" visible="pad" direction="pas" />
             </symbol>
             <symbol name="MMIC">
               <wire x1="-5" y1="-4" x2="-5" y2="4" layer="94" width="0.254" />
@@ -101,12 +101,12 @@
               <wire x1="5" y1="0" x2="7.62" y2="0" layer="94" width="0.254" />
               <wire x1="-2.54" y1="-3" x2="-2.54" y2="-7.62" layer="94" width="0.254" />
               <wire x1="2.54" y1="-1" x2="2.54" y2="-7.62" layer="94" width="0.254" />
-              <text x="-3" y="6" size="1.5" layer="95">&gt;NAME</text>
-              <text x="-3" y="4.25" size="1.25" layer="96">&gt;VALUE</text>
-              <pin name="1" x="-7.62" y="0" length="point" visible="off" direction="pas" />
-              <pin name="3" x="7.62" y="0" length="point" visible="off" direction="pas" />
-              <pin name="2" x="-2.54" y="-7.62" length="point" visible="off" direction="pas" />
-              <pin name="4" x="2.54" y="-7.62" length="point" visible="off" direction="pas" />
+              <text x="-3" y="6" size="1.5" layer="95" ratio="14">&gt;NAME</text>
+              <text x="-3" y="4.25" size="1.25" layer="96" ratio="14">&gt;VALUE</text>
+              <pin name="1" x="-7.62" y="0" length="point" visible="pad" direction="in" />
+              <pin name="3" x="7.62" y="0" length="point" visible="pad" direction="out" />
+              <pin name="2" x="-2.54" y="-7.62" length="point" visible="pad" direction="pas" />
+              <pin name="4" x="2.54" y="-7.62" length="point" visible="pad" direction="pas" />
             </symbol>
             <symbol name="COAX">
               <wire x1="-2" y1="-2" x2="-2" y2="2" layer="94" width="0.254" />
@@ -115,10 +115,10 @@
               <wire x1="2" y1="-2" x2="-2" y2="-2" layer="94" width="0.254" />
               <wire x1="2" y1="0" x2="5.08" y2="0" layer="94" width="0.254" />
               <wire x1="0" y1="-2" x2="0" y2="-5.08" layer="94" width="0.254" />
-              <text x="-3" y="6" size="1.5" layer="95">&gt;NAME</text>
-              <text x="-3" y="4.25" size="1.25" layer="96">&gt;VALUE</text>
-              <pin name="1" x="5.08" y="0" length="point" visible="off" direction="pas" />
-              <pin name="2" x="0" y="-5.08" length="point" visible="off" direction="pas" />
+              <text x="-3" y="6" size="1.5" layer="95" ratio="14">&gt;NAME</text>
+              <text x="-3" y="4.25" size="1.25" layer="96" ratio="14">&gt;VALUE</text>
+              <pin name="1" x="5.08" y="0" length="point" visible="pad" direction="pas" />
+              <pin name="2" x="0" y="-5.08" length="point" visible="pad" direction="pas" />
             </symbol>
             <symbol name="POWER">
               <wire x1="-2" y1="-2" x2="-2" y2="2" layer="94" width="0.254" />
@@ -127,10 +127,10 @@
               <wire x1="2" y1="-2" x2="-2" y2="-2" layer="94" width="0.254" />
               <wire x1="2" y1="0" x2="5.08" y2="0" layer="94" width="0.254" />
               <wire x1="0" y1="-2" x2="0" y2="-5.08" layer="94" width="0.254" />
-              <text x="-3" y="6" size="1.5" layer="95">&gt;NAME</text>
-              <text x="-3" y="4.25" size="1.25" layer="96">&gt;VALUE</text>
-              <pin name="1" x="5.08" y="0" length="point" visible="off" direction="pas" />
-              <pin name="2" x="0" y="-5.08" length="point" visible="off" direction="pas" />
+              <text x="-3" y="6" size="1.5" layer="95" ratio="14">&gt;NAME</text>
+              <text x="-3" y="4.25" size="1.25" layer="96" ratio="14">&gt;VALUE</text>
+              <pin name="1" x="5.08" y="0" length="point" visible="pad" direction="pas" />
+              <pin name="2" x="0" y="-5.08" length="point" visible="pad" direction="pas" />
             </symbol>
           </symbols>
           <devicesets>

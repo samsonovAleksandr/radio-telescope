@@ -6,7 +6,7 @@ def line(a,b,col,w):
  return f'<path d="M{a[0]} {a[1]} L{b[0]} {b[1]}" fill="none" stroke="{col}" stroke-width="{w}"/>'
 def label(x,y,t,size=1.7):return f'<text x="{x}" y="{y}" font-family="Arial,sans-serif" font-size="{size}" fill="#172635">{escape(t)}</text>'
 def point(e,j):return float(e.get('x'+j)),float(e.get('y'+j))
-sch=E.parse(out/'LNA.sch');body=label(3,4,'LNA-1420   /   SPF5189Z',2.6)+label(3,8,'A1   •   External supply +5 V   •   RF ports 50 Ω')
+sch=E.parse(out/'LNA.sch');body=label(3,4,'LNA-1420   /   SPF5189Z',2.6)+label(3,8,'A2   •   External supply +5 V   •   RF ports 50 Ω')
 for e in sch.findall('.//net/segment/wire'):
  a,b=[point(e,j) for j in ['1','2']];body+=line((a[0],85-a[1]),(b[0],85-b[1]),'#196248',.32)
 for e in sch.findall('.//junction'):
@@ -24,7 +24,7 @@ render('schematic.svg','0 0 104 77','LNA schematic',body)
 body='<rect width="30" height="25" fill="#d6e4d9"/>'
 for n,lines in tracks.items():
  for ll in lines:
-  for a,b in zip(ll,ll[1:]):body+=line((a[0],25-a[1]),(b[0],25-b[1]),'#bf5928',1.4 if n in ['IN','OUT'] else .45)
+  for a,b in zip(ll,ll[1:]):body+=line((a[0],25-a[1]),(b[0],25-b[1]),'#bf5928',1.4 if n in ['IN','AMP_IN','OUT'] or (n=='BIAS_RF' and a[1]==b[1]) else .45)
 for r,(k,v,_,(x,y)) in parts.items():
  for i,(a,b,w,h) in pads[k].items():body+=f'<rect x="{x+a-w/2}" y="{25-y-b-h/2}" width="{w}" height="{h}" fill="#806023"/>'
  body+=label(x-1.2,25-y+(3.6 if r in ['C1','U1','C2'] else -1.3),r,.95)

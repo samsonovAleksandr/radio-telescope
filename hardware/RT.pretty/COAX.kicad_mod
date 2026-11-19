@@ -1,0 +1,75 @@
+(footprint "COAX"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "30ce1c6a-240d-4111-a3e7-f33e0881e9de")
+		(effects
+			(font
+				(size 0.903 0.903)
+				(thickness 0.147)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "COAX"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56bfd951-6c30-46cb-a121-fe5eef6aaf54")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "615f6c0e-0203-4d66-8ac3-62bff0e3d440")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4fa71cda-b850-46d1-af84-5bc5d40e8970")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "d34e0696-f0ca-4b89-994f-0aa2c48936f2")
+	)
+	(pad "2" smd rect
+		(at 0 3)
+		(size 3 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "02455150-5529-4b16-b66b-60d82205010c")
+	)
+	(embedded_fonts no)
+)
